@@ -285,7 +285,8 @@ nav ul {font-size: 10px}
 
 nav ul li a {width: 100px}
 
-video {width: 280;height: 157px}
+video {width: 480;
+       height: 270px}
 
 }
 
@@ -335,7 +336,8 @@ article section:nth-of-type(1n) figcaption{
 	text-align: center;
 	margin-bottom: 15px}
 
-video {width: 280;height: 157px}  
+video {width: 280;
+       height: 157px}  
 
 }
 
@@ -424,10 +426,11 @@ article section figure {margin-left:0}
 
 <!-- ヘッダー -->
 <header id="pageheader">
-<hgroup>
+
+
 <h1>Green Leaf</h1>
 <h2>生活を楽しくする情報をもっと身近にお届けします</h2>
-</hgroup>
+
 
 <!-- メニュー -->
 <nav>
@@ -447,15 +450,21 @@ article section figure {margin-left:0}
 <!-- コンテンツ -->
 
 <article>
-  <h1>川の中の風景</h1>
+
+
+<h1>川の中の風景</h1>
+
+  <video width="640" height="360" controls 
+    poster="video.jpg" autoplay>
+    <source src="sample.mp4" type="video/mp4">
+    <source src="sample.webm" type="video/webm">
   
-  <video width="640" height="360" controls poster="video.jpg">
-   <source src="sample.mp4" type="video/mp4">
-   <source src="sample.webm" type="video/webm">
-  
-  <p>川の中の風景を撮影した動画です。<br>
-<a href="sample.mp4">sample.mp4</a></p>
-</video>
+    <p>川の中の風景を撮影した動画です。<br>
+    <a href="sample.mp4">sample.mp4</a></p>
+  </video>
+
+
+
 
 </article>
 
